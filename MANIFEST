@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+TvDotNu.pm
+t/1.t
+lib/WWW/Search/Tv/Sweden/TvDotNu/DB.pm
+lib/WWW/Search/Tv/Sweden/TvDotNu/Entry.pm
