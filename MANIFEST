@@ -6,3 +6,4 @@ TvDotNu.pm
 t/1.t
 lib/WWW/Search/Tv/Sweden/TvDotNu/DB.pm
 lib/WWW/Search/Tv/Sweden/TvDotNu/Entry.pm
+META.yml                                Module meta-data (added by MakeMaker)

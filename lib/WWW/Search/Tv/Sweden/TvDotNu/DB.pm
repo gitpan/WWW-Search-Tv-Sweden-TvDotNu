@@ -1,3 +1,5 @@
+# $Id: DB.pm,v 1.2 2004/03/31 20:28:46 claes Exp $
+
 package WWW::Search::Tv::Sweden::TvDotNu::DB;
 use strict;
 

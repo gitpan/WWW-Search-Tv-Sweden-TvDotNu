@@ -1,3 +1,5 @@
+# $Id: TvDotNu.pm,v 1.2 2004/03/31 20:28:08 claes Exp $
+
 package WWW::Search::Tv::Sweden::TvDotNu;
 
 use 5.008;
@@ -31,7 +33,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # Always use this user agent
 my $UserAgent = LWP::UserAgent->new();
@@ -305,17 +307,15 @@ Get the ending time for the program formated as HH::MM
 
 http://www.tv.nu - For seeing the online version
 
-http://developer.surfar.nu/ - My developer pages
-
 Todays newspaper should also contain the Television schedule, but it's more fun this way.
 
 =head1 AUTHOR
 
-Claes Jacobsson, E<lt>claesjac@cpan.orgE<gt>
+Claes Jacobsson, claesjac@cpan.org
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003 by Claes Jacobsson
+Copyright 2003-2004 by Claes Jacobsson
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

@@ -1,3 +1,5 @@
+# $Id: Entry.pm,v 1.2 2004/03/31 20:28:29 claes Exp $
+
 package WWW::Search::Tv::Sweden::TvDotNu::Entry;
 use strict;
 
@@ -113,7 +115,7 @@ sub start_time {
     return sprintf("%02d:%02d", $self->{start_time}->[0], $self->{start_time}->[1]);
 }
 
-sub start_time {
+sub end_time {
     my ($self) = @_;
     return sprintf("%02d:%02d", $self->{end_time}->[0], $self->{end_time}->[1]);
 }
